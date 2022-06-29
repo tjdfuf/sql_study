@@ -139,7 +139,7 @@ WHERE dept_cd IN (
 SELECT 
     1
 FROM tb_emp
-WHERE addr LIKE '%강난%'
+WHERE addr LIKE '%강남%'
 ;
 
 SELECT A.dept_cd, A.dept_nm
